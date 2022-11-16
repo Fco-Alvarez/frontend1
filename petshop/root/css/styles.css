@@ -1,0 +1,224 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color:#F0A83E ;
+  height: 4rem;
+}
+/*estilos carrusel imagenes*/
+.bkimg{
+  height: 25rem;
+  background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+  background-size: 65rem 25rem;
+  background-repeat: round;
+}
+
+#arriba {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  align-content:center;
+}
+/*estilos garra naranja*/
+.prod{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.prod p{
+  font-size: 1rem;
+  color:#666666
+}
+/*estilos productos*/
+.galeria{
+  display: flex;
+  justify-content: center;
+}
+.producto{
+  margin: 0.5rem;
+}
+/*estilos formulario*/
+.formulario input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-color:#3C2313 ;
+  color:white;
+  padding-left: 1rem;
+}
+.formulario h2{
+  display:flex;
+  justify-content: center;
+  color:#3C2313;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.formulario form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnform{
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.reset{
+  background-color:#8A8787 ;
+  color:white;
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  border-radius: 1rem;
+}
+.send{
+  background-color:#F0A83E ;
+  color:white;
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  border-radius: 1rem;
+}
+/*estilos subcripcion*/
+.formsubscription{
+  display: flex;
+  align-items: center;
+}
+.suscribete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color:#F0A83E ;
+  height: 4rem;
+}
+.formsubscription input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  background-color:white ;
+  color:white;
+  padding-left: 1rem;
+  border: none;
+  margin-right: 1rem;
+}
+.suscribeme{
+  background-color:#3C2313 ;
+  color:white;
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  border-radius: 1rem;
+}
+.infosubscription{
+  display: flex;
+  color:white;
+}
+.infosubscription img{
+  display: flex;
+  margin-right: 1rem;
+}
+
+/*estilos pie de pagina*/
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #3C2313;
+  padding-top: 1rem;
+}
+.infologo{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.derechos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  color: #FFFFFF;
+  height: 3rem;
+}
+.menu-hamburguesa{
+  display: none;
+  visibility:hidden;
+}
+@media(max-width: 600px){
+  .navbar{
+    display: none;
+  }
+  .menu-hamburguesa{
+    display: initial;
+    visibility:visible;
+  }
+  .bkimg{
+    background-image: url("../img/comedero_mobile.png");
+    background-repeat: round;
+    justify-content: center;
+  }
+  .suscribete{
+    flex-direction: column;
+    height: 8rem;
+    align-items: center;
+  }
+  .infosubscription{
+    padding-top: 1rem;
+  }
+  .formsubscription{
+    padding-bottom: 1rem;
+  }
+  .galeria{
+    flex-direction: column;
+    align-items: center;
+  }
+  .infologo{
+    flex-direction: column;
+    align-items: center;
+  }
+  .formsubscription input{
+    width: 17rem;
+    height: 2.5rem;
+  }
+  .suscribeme{
+
+    height: 2rem;
+    width: 5rem;
+  }
+
+}

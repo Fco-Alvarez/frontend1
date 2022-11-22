@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.arriba{
+  display: flex;
+  align-items: center;
+  background-color: #1CD1B0;
+  height: 1.5rem;
+  padding-left: 1rem;
+}
+.medio{
+  background-color: #00669F;
+  height: 5rem;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+  background-color: #001D2D;
+  height: 2.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color:white;
+}
+nav a{
+  padding-left: 1rem;
+}
+main{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  background-color:#00669F;
+  border-radius: 1rem;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+
+}
+.tituloFormulario{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+.tituloFormulario h3{
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.form1{
+  display: flex;
+  width: 80%;
+  justify-content:space-around;
+  color: white;
+  margin-top: 1rem;
+}
+.nombre{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.especie{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+
+}
+.form2{
+  display: flex;
+  width: 80%;
+  justify-content:space-around;
+  color:white;
+  margin-top: 1rem;
+}
+.fecha{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.agregarFoto{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.form3{
+  display: flex;
+  width: 80%;
+  justify-content:space-around;
+  color:white;
+  margin-top: 1rem;
+}
+.descripcion{
+  display: flex;
+  width: 45%;
+}
+.descripcion textarea{
+  width: 100%;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  resize: none;
+}
+.check{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+button{
+  background-color: #1CD1B0;
+  width: 30%;
+  height: 3rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669F;
+  height: 2.5rem;
+  color: white;
+}
+@media(max-width:700px){
+  .formulario{
+    width: 90%;
+  }
+  .form1,.form2,.form3{
+    flex-direction: column;
+  }
+  .nombre,.especie,.fecha,.agregarFoto,.descripcion,.check{
+    width: 90%;
+  }
+}

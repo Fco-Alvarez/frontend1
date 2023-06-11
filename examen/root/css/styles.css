@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+body{
+  background-color: #fafafa;
+}
+/*estilos header*/
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 27.65vh;
+}
+header button{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+nav{
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+nav a{
+  color: #242E52;
+  text-decoration: none;
+  display: flex;
+  padding: 0 2%;
+}
+nav a:hover{
+  color:rgba(36, 46, 82, 0.6);
+  cursor: pointer;
+}
+.hamburguesa{
+  display: none;
+}
+/*estilos seccion foto tenista*/
+.afterheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.primercontenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:85%;
+}
+.textoprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 50%;
+
+}
+.textoprincipal h2{
+    color:#232C50;
+    font-size: 50px;
+    width: 31.25vw;
+    text-align: end;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.textoprincipal p{
+    color: #000000;
+    font-size: 16.5584px;
+    width: 31.25vw;
+    text-align: end;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+/*estilos primer cuadrado morado*/
+.primercuadromorado{
+  display: flex;
+  height: 20.74vh;
+  background-color: #8B48BF;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.contenedormora{
+  display: flex;
+  width: 75.69vw;
+  justify-content: space-around;
+}
+.textoisq{
+  width: 45%;
+}
+.textoder{
+  width: 45%;
+  font-weight: 500;
+  line-height: 24.18px;
+}
+.primercuadromorado h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41.26px;
+}
+/*estilos seccion cartas informativas*/
+.cards{
+    display: flex;
+    justify-content: center;
+    height: 52.84vh;
+    background-color: #FAFAFA;
+  }
+  .cards h3{
+    color: #323851;
+    padding: 3% 0 3% 3%;
+  }
+  .cards p{
+    color: #B3B2B7;
+    padding-left: 14%;
+  }
+  .numero{
+    display: flex;
+  }
+  .cardinfocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+  }
+.infocard{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 40%;
+}
+/*estilos seccion cartas tenistas*/
+.players{
+  background-color: white;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  }
+  .players h2{
+    color: #242E53;
+    font-weight: 700;
+    font-size:39.21px;
+    line-height:61.41px;
+  }
+  .players button:hover{
+    background-color:rgba(139, 72, 191, 0.7);
+    cursor: pointer;
+
+  }
+.cardcontainer{
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+}
+.cardplayer{
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 33%;
+}
+.foto{
+  text-align: center;
+  z-index: 5;
+  height: 15%;
+}
+.texto{
+  padding-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 85%;
+  background-color: #FAFAFA;
+}
+.texto h2{
+  display: flex;
+  justify-content: center;
+  color: #3F4868;
+  font-size: 16.07px;
+  font-weight: 700;
+  line-height: 25.17px;
+}
+.texto p{
+  display: flex;
+  color:#B9B9C1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+.segundocuadrommorado{
+    display: flex;
+    height: 27.65vh;
+    background-color: #8B48BF;
+    align-items: center;
+    justify-content: center;
+}
+.segundocuadrommorado h2{
+  width: 60%;
+  font-size: 40px;
+  color: white;
+}
+.segundocuadrommorado button{
+  background-color:  #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  color: #8B48BF;
+}
+.contenedormora2{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+/*estilos pie de pagina*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30.5vh;
+  background-color: #1E1E26;
+  flex-direction: column;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  padding-top: 6px;
+}
+.contenedorfooter{
+  display: flex;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
+  width: 75.69vw;
+}
+.logos{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+}
+.logosociales img{
+  padding-right: 0.5rem;
+}
+.contenedorlinks{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+.copy{
+  display: flex;
+  width: 80%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 12.5px;
+  color: rgba(140, 140, 148, 1);
+  padding-bottom: 3%;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input{
+  border-radius: 20px;
+  padding: 5% 0;
+}
+button{
+  background-color: #8B48BF;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
+@media  (max-width: 480px) {
+  nav{
+    display: none;
+  }
+  .hamburguesa{
+    display:initial
+  }
+  header button{
+    display: none;
+  }
+  .afterheader{
+    height:100%;
+  }
+  .primercontenedor{
+    flex-direction: column;
+    width: 90vw;
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+  .imgprincipal{
+    height: 50%;
+    width: 90%;
+  }
+  .imgprincipal img{
+    width: 100%;
+    height: 95%;
+  }
+  .textoprincipal{
+    height:100%;
+    width: 100%;
+  }
+  .textoprincipal p{
+    height: 50%;
+    width: 100%;
+  }
+  .textoprincipal h2{
+    height: 50%;
+    width: 100%;
+  }
+  .contenedormora{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .primercuadromorado{
+    background-color: #3CDDF3;
+    height: 100%;
+  }
+  .textoisq{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .textoder{
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .cardinfocontainer{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .infocard{
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .numero{
+    width: 100vw;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color:rgba(139, 72, 191, 0.3) ;
+  }
+  .info{
+    padding-top: 5%;
+  }
+  .cards{
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .cards p{
+    padding-left: 0%;
+  }
+  .cardplayer{
+    width: 100%;
+  }
+  #card1{
+    display: none;
+    visibility:hidden;
+  }
+  #card3{
+    display: none;
+    visibility:hidden;
+  }
+  .contenedormora2{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .segundocuadrommorado {
+    background-color: #3CDDF3;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .segundocuadrommorado button{
+    background-color:  #232C50;
+    color: #FFFFFF;
+  }
+  .segundocuadrommorado h2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .contenedorfooter{
+    height: 100%;
+    flex-direction: column-reverse;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  footer{
+    height: 100%;
+  }
+  .logos{
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+  }
+  .logosociales{
+    padding-top: 10%;
+    padding-bottom: 20%;
+    width: 100%;
+  }
+  .logosociales img{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .logofooter{
+    justify-content: center;
+  }
+  .contenedorlinks{
+    width: 70%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .copy{
+    width: 100%;
+    justify-content: center;
+  }
+}
